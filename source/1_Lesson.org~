@@ -90,18 +90,16 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: save
 :END:
-* Database Basics, Terms & Definitions
+* Problems and Problem Solving
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
 
-** Key Terms:
+** Problem solving
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END: 
-- A Database is an organised store of data.
-- A Record is a Row of the Database.
-- A Field is a Column of a Database
+- You have been solving problems all your life, from obvious problems such as puzzle games, like the [[https://en.wikipedia.org/wiki/Tower_of_Hanoi][Tower of Hanoi]], to going through your every day life. As you mature, you are getting better at it.
 
 [[./img/Tower_of_Hanoi_4.gif]]
 
