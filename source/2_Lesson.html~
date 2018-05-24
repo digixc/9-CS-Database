@@ -79,34 +79,30 @@ for the JavaScript code in this tag.
     </ul>
   </div>
 <div id="outline-container-sec-1" class="outline-2 activity">
-<h2 id="sec-1"><span class="section-number-2">1</span> Data Mining</h2>
+<h2 id="sec-1"><span class="section-number-2">1</span> Computational Thinking</h2>
 <div class="outline-text-2" id="text-1">
 </div>
 <div id="outline-container-sec-1-1" class="outline-3 learn">
 <h3 id="sec-1-1">Learn It</h3>
 <div class="outline-text-3" id="text-1-1">
 <ul class="org-ul">
-<li>I am just deleting everything and seeing what happens:
+<li>Lets recap:
 <ul class="org-ul">
-<li>This is an indented bullet point I think. 
+<li><b>Computational thinking</b> is the thought processes of understanding a problem and presenting its solution(s) in such a way that a computer or human can understand and a computer can effectively carry out.
 </li>
 </ul>
 </li>
-</ul>
-</div>
-<div id="outline-container-sec-1-1-1" class="outline-4">
-<h4 id="sec-1-1-1">This is a 3 star indent</h4>
-<div class="outline-text-4" id="text-1-1-1">
-<ul class="org-ul">
-<li>here is a picture 
+<li>Lets break down the concept above:
+<ol class="org-ol">
+<li>understanding the problem
+</li>
+<li>presenting the solutions so a computer or human can understand
+</li>
+<li>a computer can carry out solving the problem based on the solutions presented to it
+</li>
+</ol>
 </li>
 </ul>
-
-<div class="figure">
-<p><img src="./img/mrsEllis.png" alt="mrsEllis.png" />
-</p>
-</div>
-</div>
 </div>
 </div>
 <div id="outline-container-sec-1-2" class="outline-3 try">
