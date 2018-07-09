@@ -107,7 +107,7 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END: 
-- *Starter* - Click to test your knowledge of database terminology: [[http://www.teach-ict.com/gcse_new/databases/terminology/quiz/invaders_dbterminology.htm]]
+- *Starter* - Click on the image below to test your knowledge of database terminology:
 #+BEGIN_HTML
 <a href='http://www.teach-ict.com/gcse_new/databases/terminology/quiz/invaders_dbterminology.htm'><img src='./img/L2Starter.png'></a>
 #+END_HTML
@@ -171,9 +171,8 @@
 :END: 
 - *Plenary* - Using your knowledge of databases so far, have a go at the *Query Quiz*
    #+BEGIN_HTML
-    <object width="400" height="400" data="doc/Query Quiz.swf"></object>
+    <object width="600" height="800" data="doc/Query Quiz.swf"></object>
    #+END_HTML
-    [[./img/L2MatchupQuiz.jpg]]
 
 
 ** Badge It - Silver
