@@ -90,59 +90,54 @@
 :HTML_CONTAINER_CLASS: save
 :END
 
-* Computational Thinking
+* Querying the Database
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-** Learn It 
+** Objectives 
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: learn
+:HTML_CONTAINER_CLASS: key
 :END: 
-- Lets recap:
-  - *Computational thinking* is the thought processes of understanding a problem and presenting its solution(s) in such a way that a computer or human can understand and a computer can effectively carry out.
-- Lets break down the concept above:
-  1. understanding the problem
-  2. presenting the solutions so a computer or human can understand
-  3. a computer can carry out solving the problem based on the solutions presented to it
+- You will demonstrate understanding of searching databases.
+- You will build knowledge of multiple search methods.
+- You will contribute to query and searching discussions.
+- You will understand the structure of SQL statements.
+
 ** Try It 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END: 
-- Lets consider the following sequence of numbers.  The problem to be solved is to find the largest number:
-#+BEGIN_SRC 
-10 12 8 9 6 15 20 14
-
-#+END_SRC
-=Step 1=: understanding the problem.  This is very important step.  We need to know what exactly the problem is.  In this case, 
-   + to find the largest number from the given sequence
-
-=Step 2=:  presenting the solution so a computer or human can understand. 
-     1. What does it mean by *presenting the problem*?   
-        - This means describing the problem in some fashion. For a human to understand, we can use text or diagram. 
-        - The following is a solution to the finding the largest number problem described in plain but structured English:
-         #+BEGIN_SRC 
-  1  Start from the first number in the list
-  2       
-  3  if the first number is larger or equal to the next number
-  4      make the first number the largest number
-  5  else
-  6      make the next number the largest number
-  7  Move to the next number
-  8  Repeat the steps 3 to 7 until all the number in the list is compared 
-
-         #+END_SRC
-       *But*
-     2. How to present the solution so a computer can understand? This is where computer programming languages come to play.
-     3. Humans use programming languages to present/describe the solution to a computer. This is called =implementation of the solution= in programming language.
-        1. The following is the implemented solution using Python.
-
-
-=Step 3=: Computers follow the instructions from the solution presented to carry out solving the problem. Run the program below and see if the solution works.  
+- *Starter* - Click to test your knowledge of database terminology: [[http://www.teach-ict.com/gcse_new/databases/terminology/quiz/invaders_dbterminology.htm]]
 #+BEGIN_HTML
-<iframe src="https://trinket.io/embed/python/f99d6c2127" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<a href='http://www.teach-ict.com/gcse_new/databases/terminology/quiz/invaders_dbterminology.htm'><img src='./img/L2Starter.png'></a>
 #+END_HTML
 
-* Algorithmic Thinking in Computational Thinking
+
+** Learn It 
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:      
+- A query is a question, often expressed in a formal way.
+- A database query can be either a select query or an action query.
+- A select query is a data retrieval query, while an action query asks for additional operations on the data, such as insertion, updating or deletion.
+[[./img/QueryDB.jpg]]
+
+** Try It 
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+- Open your *Game Stock Database* from the last lesson.
+- Today you are going to complete the following queries (Searches):
+- Your Teacher will demonstrate how to create a query. 
+  1. Create a query that finds *all games* that are *3+*.
+  2. *All PlayStation games* in *alphabetical* order of *name*.
+  3. An *RPG* game that is suitable for *11+*.
+  4. *All Sport* games suitable for *3+*.
+  5. Your own query (Any titles/platforms/age etc.)
+[[./img/Picture1.png]]
+
+
+* Activity 2: Progress Check
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END: 
@@ -151,47 +146,50 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END: 
-- In the previous finding the largest number problem, we have learned 3 equally important aspects of problem solving in computing:
-  1. understanding the problem
-  2. describeing/presenting the solution so a human or a computer can understand
-  3. implementing the problem using programming language
- 
-- Lets focus on the step 2: describe/present the solution so a computer/human can understand. We did this by using a sequence of text or plain English but with some structure to make the solution easier for a human to follow.
-- A solution given in step by step instructions is called an *algorithm*. 
-- *Algorithmic thinking* is to have a solution to a problem, and the solution is such that it can be described in a sequence of instructions.
-- If we have an algorithm, then we can write a program to do it.
-- Computer programs are just algorithms written out in a programming language so computers can understand.
+
+- In the previous lesson you should have used query guides to help you complete the five basic queries.
+- Databases store data in a structured format, which can be accessed using queries.
+- In fact, the structured query language (SQL) was designed specifically for this purpose.
+- Users can create SQL queries that retrieve specific information from a database.
+[[./img/SQL.jpg]]
+
 ** Try It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END: 
-- Now, lets apply *computational thinking* to a simple problem and try to work out step by step.
-  #+BEGIN_SRC 
-  Given a sequence of numbers: 45 67 -9 12 -92 -10 44
-  Find all positive numbers in the given sequence
-  #+END_SRC
-- Try to work out the following by yourself:
-  1. understanding the problem.
-  2. using *algorithmic thinking*, and plain but structured English to present a solution to the given problem so your peers can understand.
-  3. try to implement the solution you created in step 2 in Python. To implement it, you need:
-     + [[../../CS-PythonKeySkills/pages/PythonkeySkills.html#sec-1-3][create a list]] to hold the numbers
-     + use a loop ([[../../CS-PythonKeySkills/pages/PythonkeySkills2.html#sec-1-1][for or while loop]]) to go through the list
-     + use [[../../CS-PythonKeySkills/pages/PythonkeySkills.html#sec-1-2][if statement]] to decide if a number is positive or not 
-  4. run the Python program to see if it works.
+- Today your taks is to create a new query that uses at least 4 different criteria to search and display the results.
+- *For example: xbox games, Sports Genre, age 15+ and Price less than £40.00.*
+  1. Explain how you used criteria to search the database for required information.
+  2. Explain how you used the sort function to sort the data in your search.
+  3. Take screenshots to prove you have completed each search.
+  4. Click on the SQL view to show the SQL commands used in your query, take a screenshot of this.
+ [[./img/Query.png]]
+
+** Try It 
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END: 
+- *Plenary* - Using your knowledge of databases so far, have a go at the *Query Quiz*
+   #+BEGIN_HTML
+    <object width="400" height="400" data="doc/Query Quiz.swf"></object>
+   #+END_HTML
+    [[./img/L2MatchupQuiz.jpg]]
+
+
 ** Badge It - Silver
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: silver
 :END:
-- Upload your written understanding of the above given problem in plain English to www.bournetolearn.com. Your work must include your understanding of positive numbers.
+- Upload your screenshots of the five queries, including an explanation of the criteria used to www.bournetolearn.com.
 ** Badge It - Gold
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: gold
 :END:
-- Your solution (algorithm) to the problem above in structured English. Upload your work to www.bournetolearn.com. 
-- Your algorithm should meet the criteria that it can be understood by a human or for a human to follow to find all positive numbers in a list.
+- Upload your screenshots of the five queries, including a detailed explanation of the criteria used to perform each search to www.bournetolearn.com. 
 ** Badge It - Platinum
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: platinum
 :END:
-- Screenshot of your implemented working solution in Python and upload to www.bournetolearn.com
+- Create your own query that uses at least 4 different search criteria. Upload your evidence to www.bournetolearn.com.
+- Upload your SQL screenshot showing the SQL commands used in your search.
 
