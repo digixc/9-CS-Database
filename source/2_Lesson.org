@@ -173,8 +173,6 @@
    #+BEGIN_HTML
     <object width="600" height="800" data="doc/Query Quiz.swf"></object>
    #+END_HTML
-
-
 ** Badge It - Silver
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: silver
