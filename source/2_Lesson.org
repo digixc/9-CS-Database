@@ -4,8 +4,8 @@
 #+HTML_HEAD_EXTRA: <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
 #+HTML_HEAD_EXTRA: <script src="js/navbar.js" type="text/javascript"></script>
 #+OPTIONS: f:nil author:AUTHOR num:1 creator:AUTHOR timestamp:nil toc:nil html-style:nil html-postamble:nil
-#+TITLE:Computational Thinking
-#+AUTHOR: X Ellis
+#+TITLE:Databases
+#+AUTHOR: S.Fone and A.Stout
 
 #+BEGIN_HTML
   <div class="github-fork-ribbon-wrapper left">
@@ -101,7 +101,7 @@
 - You will demonstrate understanding of searching databases.
 - You will build knowledge of multiple search methods.
 - You will contribute to query and searching discussions.
-- You will understand the structure of SQL statements.
+- You will understand the structure and purpose of SQL statements.
 
 ** Try It 
 :PROPERTIES:
@@ -122,18 +122,24 @@
 - A select query is a data retrieval query, while an action query asks for additional operations on the data, such as insertion, updating or deletion.
 [[./img/QueryDB.jpg]]
 
+#+BEGIN_html
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V5Aay2xBDps" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+#+END_html
+
 ** Try It 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
-- Open your *Game Stock Database* from the last lesson.
+- Open your *Game Stock Database*[[file:doc/Game Stock Database 2018.accdb][ Download this file]] from the last lesson.
 - Today you are going to complete the following queries (Searches):
-- Your Teacher will demonstrate how to create a query. 
+- Your Teacher will demonstrate how to create a query or you can watch the video above or view this [[file:doc/Creating a query using the wizard.pdf][guide]]? 
   1. Create a query that finds *all games* that are *3+*.
   2. *All PlayStation games* in *alphabetical* order of *name*.
   3. An *RPG* game that is suitable for *11+*.
-  4. *All Sport* games suitable for *3+*.
-  5. Your own query (Any titles/platforms/age etc.)
+  4. *All Sport* games suitable for *15*.
+  5. Your own query *(Any titles/platforms/age/price etc.)*
 [[./img/Picture1.png]]
 
 
