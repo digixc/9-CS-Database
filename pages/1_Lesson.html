@@ -83,125 +83,201 @@ for the JavaScript code in this tag.
 <h2 id="sec-1"><span class="section-number-2">1</span> Database Basics, Terms &amp; Definitions</h2>
 <div class="outline-text-2" id="text-1">
 </div>
-
-<div id="outline-container-sec-1-1" class="outline-3 learn">
-<h3 id="sec-1-1">Key Terms:</h3>
+<div id="outline-container-sec-1-1" class="outline-3">
+<h3 id="sec-1-1">Objectives:</h3>
 <div class="outline-text-3" id="text-1-1">
 <ul class="org-ul">
-<li>A Database is an organised store of data.
+<li><b>Investigate</b> what a Database is and their basic features.
 </li>
-<li>A Record is a Row of the Database.
+<li><b>Recognise</b> the importance of Databases &amp; <b>Highlight</b> the reasons as to why they are a valuable tool
 </li>
-<li>A Field is a Column of a Database
+<li><b>Explain</b> in detail key database terminology
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1-2" class="outline-3 key">
+<h3 id="sec-1-2">Key Terms:</h3>
+<div class="outline-text-3" id="text-1-2">
+<ul class="org-ul">
+<li>A <b>Database</b> is an <b>organised</b> store of <b>data</b>. 
+</li>
+<li>A <b>Table</b> is used to contain the Data specific to an Entity (objects,people,events). 
+</li>
+<li>A <b>Record</b> is a single <b>Row</b> of the Database. 
+</li>
+<li>A <b>Field</b> is a single <b>Column</b> of a Database.  
 </li>
 </ul>
 
 
 <div class="figure">
-<p><img src="./img/Tower_of_Hanoi_4.gif" alt="Tower_of_Hanoi_4.gif" />
+<p><img src="./img/database.png" alt="database.png" />
 </p>
 </div>
+</div>
+</div>
 
-<p>
-By <a href="https://commons.wikimedia.org/w/index.php?curid=85401">AndrÃ© Karwath aka Aka</a> - Own work, CC BY-SA 2.5
-</p>
-
+<div id="outline-container-sec-1-3" class="outline-3 learn">
+<h3 id="sec-1-3">Learn It</h3>
+<div class="outline-text-3" id="text-1-3">
 <ul class="org-ul">
-<li>Lets work through some problems and see how you solve them.
+<li>We have been recording data since before the time of the Romans. In fact some of the earliest Databases come this period in history.
+</li>
+<li>The Romans would record such data as wheat harvests and military camp itinaries so they knew how much equipment the soldiers had at a fort.
+</li>
+<li>We obtain the word <b>Record</b> from the Latin word <b>Recordari</b>, The <b>noun</b> was earliest used in law to denote the fact of <b>being written down as evidence</b>.
+</li>
+<li>A <b>Record</b> is therefore a <b>collection of facts relating to an object, person or event</b>.
+</li>
+<li>For hundreds of years these records were recorded on paper, hence the term <b>Paper Database</b>.
+</li>
+<li>Before Computer Science, records were written on peices of paper, which we called files, and stored in filing cabinets.
+</li>
+<li>Paper Filing Cabinets could store less than <b>6,000 files</b>, or <b>6000 records</b> because each record needed to be seperated from the others for privacy reasons. 
+</li>
+<li>A Computer Database of the same size would only be a few <b>Megabytes</b> and fit on to a USB stick, and be less harmful on the trees than all that paper.
 </li>
 </ul>
 
 <pre class="example">
-Problem 1: You have been asked by your teacher to rank the quiz score 
-           in your form for each of the 8 teams from the highest to the lowest.
-           
-How do you do it?
+Challenge 1: 
+
+Why do we store data within Databases? 
+What would an on-line store such as Amazon store within a Database?
+What if they wanted to retrieve one record from a Paper based Database? 
+How would this compare to an Electronic Database? 
+How would this Data be organised? 
+
+Now Think, Pair, Share!
 </pre>
-<ul class="org-ul">
-<li>Try to describe the steps you used to the person next to you. 
-</li>
-<li>Is your solution more efficient than your peers?
-</li>
-</ul>
-
-
-<pre class="example">
-Problem 2: You have walked to your school along the same route for months
- with your two of your best friend. You meet them up along the way. 
- But you have just made another friend and you want to meet him along
- the way. You need to adjust your route so that you don't have to walk
- unneccessary distance. See the map below.
-</pre>
-
-<div class="figure">
-<p><img src="./img/streetMapRoute.jpeg" alt="streetMapRoute.jpeg" />
-</p>
-</div>
-
-<ul class="org-ul">
-<li>Can you describe the steps and reasons you followed to reach your solution for the above problem to the person next to you?
-</li>
-<li>Think how complex the problem would be if you have to meet up with more friends on your way to school.
-</li>
-<li>How parcel delivery companies plan their delivery routes? 
-</li>
-</ul>
-</div>
 </div>
 </div>
 
-
-<div id="outline-container-sec-2" class="outline-2 activity">
-<h2 id="sec-2"><span class="section-number-2">2</span> Computational Thinking</h2>
-<div class="outline-text-2" id="text-2">
-</div>
-<div id="outline-container-sec-2-1" class="outline-3 learn">
-<h3 id="sec-2-1">Learn It</h3>
-<div class="outline-text-3" id="text-2-1">
-<ul class="org-ul">
-<li>As a human, you find that sorting the scores from 8 teams is quite easy.
-</li>
-<li>But what about sorting the whole year's? the whole school's? You can, but it will take you a much longer time.
-</li>
-<li>You may be already thinking about computers and using spreadsheet to help you sort a much longer list of scores.
-</li>
-<li>But humans must create spreadsheet software first. What's more the spreadsheet software humans created must be able to sort numbers.
-</li>
-<li>When we deal with large amount of data and more complex problems, computers can <b>help</b> us to solve those problems more quickly than humans can, <b>BUT</b> humans must describe the steps to solve the problems to the computers first.
-</li>
-<li><b>Computational thinking</b> is the thought processes of understanding a problem and presenting its solution(s) in such a way that a computer can effectively carry out.
-</li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-sec-2-2" class="outline-3 key">
-<h3 id="sec-2-2">Key Points Check</h3>
-<div class="outline-text-3" id="text-2-2">
+<div id="outline-container-sec-1-4" class="outline-3">
+<h3 id="sec-1-4">Think, Pair, Share</h3>
+<div class="outline-text-3" id="text-1-4">
 <ol class="org-ol">
-<li>Humans must develop possible solutions
+<li>Have a think about your answer - 2 mins.
 </li>
-<li>Humans must present the solutions in a way computers can understand
+<li>In Pairs discuss your thoughts - 2 mins.
 </li>
-<li>Computers can only help us solve problems
-</li>
-<li><code>Computational thinking</code> is the thought processes of understanding a problem and presenting its solution(s) in such a way that a computer 
+<li>Share your thoughts with the Class
 </li>
 </ol>
 </div>
 </div>
-<div id="outline-container-sec-2-3" class="outline-3 badge">
-<h3 id="sec-2-3">Badge It</h3>
-<div class="outline-text-3" id="text-2-3">
+
+<div id="outline-container-sec-1-5" class="outline-3">
+<h3 id="sec-1-5">Watch this Video</h3>
+<div class="outline-text-3" id="text-1-5">
+<iframe width="640" height="360" src="https://www.youtube.com/embed/t8jgX1f8kc4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+</div>
+
+<div id="outline-container-sec-1-6" class="outline-3 silver">
+<h3 id="sec-1-6">Badge It</h3>
+<div class="outline-text-3" id="text-1-6">
 <ul class="org-ul">
-<li>Read<a href="http://www.bcs.org/content/ConWebDoc/55416"> this article</a>. <a href="https://bbc.co.uk">BBC</a> Use your own words, one paragraph each, list 4 [[
+<li>Using the Key Terms listed above identify and explain in detail the key definitions for Databases (Database,Table, Record, Field). You can acheive this by using an example such as the one we have covered for Challenge 1, explaining what tables &amp; fields would be needed and what data would be stored in the records.
+</li>
+<li>Achieve this by using a Text Editor of your choice &amp; submit your evidence on the Bourne to Learn website. 
+</li>
+<li>Each <b>Term</b> will need to be fully explained in your <b>own words</b> within a short paragraph, using an example. Remember to use full sentences and connectives (..because, therefore). 
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> How are Databases Used?</h2>
+<div class="outline-text-2" id="text-2">
+</div><div id="outline-container-sec-2-1" class="outline-3 learn">
+<h3 id="sec-2-1">Learn It</h3>
+<div class="outline-text-3" id="text-2-1">
+<ul class="org-ul">
+<li>So Data is stored within a Database. It is organised into rows called Records. Each column represents a Field, which has specific types of Data. This could be Text, Numbers, Dates 
+</li>
+<li>For Example
 </li>
 </ul>
 
-<p>
-./img/bubble.gif]]
-things you have learned from the article on computational thinking.
+<div class="figure">
+<p><img src="./img/Student-record.png" alt="Student-record.png" />
 </p>
+</div>
+
+<ul class="org-ul">
+<li>However why and how are Databases used?
+</li>
+<li>The first question can be answered by thinking about Paper based Databases. Computer Code can be written to search through data to <b>Match</b> a peice of Data. We call this querying the Database, Query being another word used instead of the word question
+</li>
+<li>A Query is created within Database programs such as Microsoft Access by pressing a key buttons and typing in the <b>Criteria</b>, what we call the Search Term.
+</li>
+<li>For web-based applications and almost everything else Queries are created using <b>SQL</b> which stands for Structured Query Language. Don't worry about this now we will be covering both in later lessons.
+</li>
+<li>This is not the only use of Databases however, new Information can be obtained from a Database. First, let's refresh what is Data and What is Information.
+</li>
+<li>The words "data" and "information" are often used as if they are synonyms. Nevertheless, they have different meanings.
+</li>
+<li><b>Data</b>: Raw material, from which you can draw conclusions. Facts from which you can deduce new facts. 
+</li>
+<li><b>Information</b>: knowledge, intelligence, a particular piece of data with a special meaning or function. Information is often the result of combining, comparing and performing calculations on data. 
+</li>
+<li>Let's look at the example below.
+</li>
+</ul>
+
+
+<div class="figure">
+<p><img src="./img/data_information.png" alt="data_information.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2-2" class="outline-3 gold">
+<h3 id="sec-2-2">Badge It</h3>
+<div class="outline-text-3" id="text-2-2">
+<ul class="org-ul">
+<li><b>What Databases do you use in your daily life? Perhaps on your phone?, perhaps on your personal computer or laptop?</b>
+</li>
+<li><b>Research</b> 2 applications in real life where Databases are used and how. 
+</li>
+<li>Achieve this by using a Text Editor of your choice &amp; submit your evidence on the Bourne to Learn website. 
+</li>
+<li>Each <b>application</b> will need to be fully explained in your <b>own words</b> within a paragraph. 
+</li>
+<li>Remember to use full sentences and connectives (..because, therefore). 
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-2-3" class="outline-3 platinum">
+<h3 id="sec-2-3">Badge It</h3>
+<div class="outline-text-3" id="text-2-3">
+<ul class="org-ul">
+<li>In addition to the work you have completed for the Gold Badge, explain the company or application's reasons for using a Database.
+</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-sec-2-4" class="outline-3 key">
+<h3 id="sec-2-4">Key Points Check</h3>
+<div class="outline-text-3" id="text-2-4">
+<ul class="org-ul">
+<li>A Database is an organised store of data. A Database is made up of various Tables containing Data specific for a purpose. For instance a Car Hire Database contains Data specific for Hiring a Car. One Table will be used to store the customer details wishing to hire a car. Another Table will be used to store the Hire Car details such as Registration Number and fuel type.
+</li>
+<li>A Table is used to contain the Data specific to an Entity. For instance the Customers are an Entity, and so are the hire cars. 
+</li>
+<li>A Record is a single Row of the Database. A Record contains data specific to one instance. For example Fred Smith's name and address within a customer database is an instance and therefore would be stored within a Record.
+</li>
+<li>A Field is a single Column of a Database. A field contains values relating to one property of an entity. For example the surnames within customer database, containing all the surnames of all the customers. Fields have specific types of data, such as text, whole numbers or date and time. 
+</li>
+</ul>
 </div>
 </div>
 </div>

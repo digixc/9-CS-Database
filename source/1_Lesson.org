@@ -94,74 +94,109 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-
+** Objectives:
+- *Investigate* what a Database is and their basic features.
+- *Recognise* the importance of Databases & *Highlight* the reasons as to why they are a valuable tool
+- *Explain* in detail key database terminology
 ** Key Terms:
 :PROPERTIES:
+:HTML_CONTAINER_CLASS: key
+:END:      
++ A *Database* is an *organised* store of *data*. 
++ A *Table* is used to contain the Data specific to an Entity (objects,people,events). 
++ A *Record* is a single *Row* of the Database. 
++ A *Field* is a single *Column* of a Database.  
+
+[[./img/database.png]]
+
+** Learn It
+:PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
-:END: 
-- A Database is an organised store of data.
-- A Record is a Row of the Database.
-- A Field is a Column of a Database
+:END:
+- We have been recording data since before the time of the Romans. In fact some of the earliest Databases come this period in history.
+- The Romans would record such data as wheat harvests and military camp itinaries so they knew how much equipment the soldiers had at a fort.
+- We obtain the word *Record* from the Latin word *Recordari*, The *noun* was earliest used in law to denote the fact of *being written down as evidence*.
+- A *Record* is therefore a *collection of facts relating to an object, person or event*.
+- For hundreds of years these records were recorded on paper, hence the term *Paper Database*.
+- Before Computer Science, records were written on peices of paper, which we called files, and stored in filing cabinets.
+- Paper Filing Cabinets could store less than *6,000 files*, or *6000 records* because each record needed to be seperated from the others for privacy reasons. 
+- A Computer Database of the same size would only be a few *Megabytes* and fit on to a USB stick, and be less harmful on the trees than all that paper.
 
-[[./img/Tower_of_Hanoi_4.gif]]
+#+Begin_SRC 
+Challenge 1: 
 
-     By [[https://commons.wikimedia.org/w/index.php?curid%3D85401][André Karwath aka Aka]] - Own work, CC BY-SA 2.5
+Why do we store data within Databases? 
+What would an on-line store such as Amazon store within a Database?
+What if they wanted to retrieve one record from a Paper based Database? 
+How would this compare to an Electronic Database? 
+How would this Data be organised? 
 
-- Lets work through some problems and see how you solve them.
-
-#+BEGIN_SRC 
-Problem 1: You have been asked by your teacher to rank the quiz score 
-           in your form for each of the 8 teams from the highest to the lowest.
-           
-How do you do it? 
+Now Think, Pair, Share! 
           
 #+END_SRC
-- Try to describe the steps you used to the person next to you. 
-- Is your solution more efficient than your peers?
 
+** Think, Pair, Share
+1. Have a think about your answer - 2 mins.
+2. In Pairs discuss your thoughts - 2 mins.
+3. Share your thoughts with the Class
 
-#+BEGIN_SRC 
-Problem 2: You have walked to your school along the same route for months
- with your two of your best friend. You meet them up along the way. 
- But you have just made another friend and you want to meet him along
- the way. You need to adjust your route so that you don't have to walk
- unneccessary distance. See the map below.
-#+END_SRC
-[[./img/streetMapRoute.jpeg]]
+** Watch this Video
+#+BEGIN_HTML
+<iframe width="640" height="360" src="https://www.youtube.com/embed/t8jgX1f8kc4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+#+END_HTML
 
-- Can you describe the steps and reasons you followed to reach your solution for the above problem to the person next to you?
-- Think how complex the problem would be if you have to meet up with more friends on your way to school.
-- How parcel delivery companies plan their delivery routes? 
-
-
-* Computational Thinking
+** Badge It
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: activity
+:HTML_CONTAINER_CLASS: silver
 :END:
-** Learn It 
+- Using the Key Terms listed above identify and explain in detail the key definitions for Databases (Database,Table, Record, Field). You can acheive this by using an example such as the one we have covered for Challenge 1, explaining what tables & fields would be needed and what data would be stored in the records.
+- Achieve this by using a Text Editor of your choice & submit your evidence on the Bourne to Learn website. 
+- Each *Term* will need to be fully explained in your *own words* within a short paragraph, using an example. Remember to use full sentences and connectives (..because, therefore). 
+* How are Databases Used?
+** Learn It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
-:END: 
-- As a human, you find that sorting the scores from 8 teams is quite easy.
-- But what about sorting the whole year's? the whole school's? You can, but it will take you a much longer time.
-- You may be already thinking about computers and using spreadsheet to help you sort a much longer list of scores.
-- But humans must create spreadsheet software first. What's more the spreadsheet software humans created must be able to sort numbers.
-- When we deal with large amount of data and more complex problems, computers can *help* us to solve those problems more quickly than humans can, *BUT* humans must describe the steps to solve the problems to the computers first.
-- *Computational thinking* is the thought processes of understanding a problem and presenting its solution(s) in such a way that a computer can effectively carry out.
+:END:
+- So Data is stored within a Database. It is organised into rows called Records. Each column represents a Field, which has specific types of Data. This could be Text, Numbers, Dates 
+- For Example
+[[./img/Student-record.png]]
+
+- However why and how are Databases used?
+- The first question can be answered by thinking about Paper based Databases. Computer Code can be written to search through data to *Match* a peice of Data. We call this querying the Database, Query being another word used instead of the word question
+- A Query is created within Database programs such as Microsoft Access by pressing a key buttons and typing in the *Criteria*, what we call the Search Term.
+- For web-based applications and almost everything else Queries are created using *SQL* which stands for Structured Query Language. Don't worry about this now we will be covering both in later lessons.
+- This is not the only use of Databases however, new Information can be obtained from a Database. First, let's refresh what is Data and What is Information.
+- The words "data" and "information" are often used as if they are synonyms. Nevertheless, they have different meanings.
+- *Data*: Raw material, from which you can draw conclusions. Facts from which you can deduce new facts. 
+- *Information*: knowledge, intelligence, a particular piece of data with a special meaning or function. Information is often the result of combining, comparing and performing calculations on data. 
+- Let's look at the example below.
+
+[[./img/data_information.png]]
+
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: gold
+:END:
+- *What Databases do you use in your daily life? Perhaps on your phone?, perhaps on your personal computer or laptop?*
+- *Research* 2 applications in real life where Databases are used and how. 
+- Achieve this by using a Text Editor of your choice & submit your evidence on the Bourne to Learn website. 
+- Each *application* will need to be fully explained in your *own words* within a paragraph. 
+- Remember to use full sentences and connectives (..because, therefore). 
+
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: platinum
+:END:
+- In addition to the work you have completed for the Gold Badge, explain the company or application's reasons for using a Database.
+
 
 ** Key Points Check
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: key
 :END: 
-   1. Humans must develop possible solutions
-   2. Humans must present the solutions in a way computers can understand
-   3. Computers can only help us solve problems
-   4. =Computational thinking= is the thought processes of understanding a problem and presenting its solution(s) in such a way that a computer 
-** Badge It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: badge
-:END:
-- Read[[http://www.bcs.org/content/ConWebDoc/55416][ this article]]. [[https://bbc.co.uk][BBC]] Use your own words, one paragraph each, list 4 [[
+- A Database is an organised store of data. A Database is made up of various Tables containing Data specific for a purpose. For instance a Car Hire Database contains Data specific for Hiring a Car. One Table will be used to store the customer details wishing to hire a car. Another Table will be used to store the Hire Car details such as Registration Number and fuel type.
+- A Table is used to contain the Data specific to an Entity. For instance the Customers are an Entity, and so are the hire cars. 
+- A Record is a single Row of the Database. A Record contains data specific to one instance. For example Fred Smith's name and address within a customer database is an instance and therefore would be stored within a Record.
+- A Field is a single Column of a Database. A field contains values relating to one property of an entity. For example the surnames within customer database, containing all the surnames of all the customers. Fields have specific types of data, such as text, whole numbers or date and time. 
 
-./img/bubble.gif]]
-things you have learned from the article on computational thinking.
+
