@@ -183,7 +183,7 @@ Sometimes we might want an image
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:      
-- [[file:doc/How-Computers-Work.md][Download this file]]
+- [[file:doc/How-Computers-Work.md][Download this file]
 - You can use this as a guide for your write up.
 - Open it up in a text editor and have a quick scan through
 * Assessment
