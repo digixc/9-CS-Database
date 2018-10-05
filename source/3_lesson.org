@@ -4,13 +4,13 @@
 #+HTML_HEAD_EXTRA: <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
 #+HTML_HEAD_EXTRA: <script src="js/navbar.js" type="text/javascript"></script>
 #+OPTIONS: f:nil author:AUTHOR num:1 creator:AUTHOR timestamp:nil toc:nil html-style:nil
-#+TITLE:Computational Thinking
-#+AUTHOR: X Ellis
+#+TITLE:SQL Zoo
+#+AUTHOR: A Stout
 
 #+BEGIN_HTML
   <div class="github-fork-ribbon-wrapper left">
     <div class="github-fork-ribbon">
-      <a href="https://github.com/digixc/8-CS-ProblemSolving">Fork me on GitHub</a>
+      <a href="https://github.com/digixc/8-CS-Database">Fork me on GitHub</a>
     </div>
   </div>
 <div id="stickyribbon">
@@ -90,7 +90,7 @@
 :HTML_CONTAINER_CLASS: save
 :END
 
-* Algorithms - pattern recognition
+* SQL - Structured Query Language
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
@@ -98,83 +98,67 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END: 
-- In the previous lesson, we have learned the concept of =algorithmic thinking=, that is, developing a step by step instructions to solve a problem.
-- Using the sorting quiz score problem from lesson 1, the problem requires you to sort a list of quiz scores from the lowest to the highest.
-- Can you explain why the following solution is not an appropriate algorithm for a computer to carry out?
+- SQL is an abbreviation for structured query language, and pronounced either see-kwell or as separate letters.
+- The original version called SEQUEL (structured English query language) was designed by an IBM research center in 1974 and 1975. 
+- SQL is a standardized query language for requesting information from a database. 
+- Query is another word for question, in essence we are asking the Database a question.
+- Let's look at it's structure
 #+BEGIN_SRC 
 
-Look through all the quiz scores
-put down the largest one first
-then look through the rest of the quiz scores
-put down the next largest one after the previous largest one
-carry on until all quiz scores are checked
+SELECT field(s) FROM table(s)
+
+Select and From are in uppercase, representing the fact that they are commands and therefore 
+do not change. Field and table are lowercase representing the section that depends upon the 
+Database in question.
+
+Example - A School Database
+
+SELECT First_Name,Last_Name,Grades FROM Exams.
+
+First_Name, Last_Name and Grades are the fields that we are interested in obtaining the 
+records for. Exams is the Table that contains all of the records for students who have 
+taken their GCSE's.
+
+Running this command will list all the student's names and their grades. This isn't exactly
+helpful as we haven't listed the subjects, so we won't know which grades apply for which subjects.
+A better approach would be to include subjects and then GROUP the subjects or students together.
+Let's look how we do this by taking a trip to the SQL Zoo. 
 
 #+END_SRC
-- Now take a look at the solution below, can you explain what makes this algorithm better?
-- Can you indetify a pattern in it?
-- Can you work out the outcome of the following algorithm?  Have the quiz scores sorted?
-#+BEGIN_SRC
-1. put the list of quiz scores in an array 
-2. compare the first score with the second score
-3. if the first score is higher
-4.       swap its position with the second score in the array
-5. Compare the second score with the third score
-6. if the second score is higher
-7.       swap its position with the third score in the array
-8. repeat the above steps until all scores have been compared
+- Click on the following link to take a trip to SQL Zoo.
+- The Website looks looks like this.
 
-#+END_SRC
+[[./img/SQLZoo.png]]
 
-** Try It - implementing a sorting algorithm
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: try
-:END: 
-- Let's try to implement the algorithm above in Python. 
-- Here is a list of key Python skills you need:
-  - [[./PythonKeySkills.html#sec-1-3][ Use an array to store data and array index]]
-  - [[./PythonKeySkills.html#sec-1-2][Comparing numbers]]
-  - [[./PythonkeySkills.html#sec-1-5][Swap the positions of two items in an array]]
-
-- Some steps will be shown to you, but some steps you have to work out yourself. But if you stuck, search online for help or ask your teacher.
-- Open a new file in IDLE or Thorny,
-  1. put the list of quiz scores in an array. In Python 
-     #+BEGIN_SRC 
-quizScore = [23, 67, 54, 44, 35, 34]
-     
-     #+END_SRC
-  2. compare the first score with the second score
-  3. if the first score is higher. The above two steps can be written in Python as one:
-           #+BEGIN_SRC 
-if quizScore[0]>quizScore[1]:
-     
-     #+END_SRC
-  4. swap its position with the second score in the array
-           #+BEGIN_SRC 
-      Can you work out how to swap those two's positions?
-     
-     #+END_SRC
-  5. Compare the second score with the third score
-  6. if the second score is higher
-  7. swap its position with the third score
-  8. repeat the above steps until all scores have been compared
+- *Think*, *Pair*, *Share* We will work through the first question of the first tutorial, have a go yourself first.
+- If you get stuck, share your thoughts with the person next to you first, and then be ready to share your findings with the class.
+- Click Here [[https://sqlzoo.net/]]
 
 ** Badge It - Silver
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: silver
 :END:
-- Finish the implementation so that all quiz scores have been compared and upload a screenshot of your code
-- To help you with picturing what the algorithm does, here is an animation of sorting a list of numbers using the same algorithm.
+- Finish the questions for the first Tutorial *0 SELECT - Basics* and the move on.
+- Complete the next Tutorial *1 SELECT - name* 
+- Ensure you have completed *both* Tutorials, capturing evidence that you have completed the tasks using the snip-it tool. 
+- Submit all of your evidence on the BourneToLearn website.
 
-[[./img/bubbleSortPassOne.gif]]
 ** Badge It - Gold
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: gold
 :END:
-- Test your Python implmentation and explain why the whole quiz score is not sorted.
-- Upload screenshots of your test and written explaination
+- Research why data is split over a range of tables using a technique known as *Normalisation*
+- What are the benifits of *Normalisation* and why was it important in the 1970's and 1980's?
+- What was the Millennium bug?
+- How did storing a date as 3 bytes instead of 4 bytes cause the Millennium bug?
+- Write your answers to the questions above in your favourtie text editor and submit your work to the BourneToLearn Website.
+
 ** Badge It - Platinum
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: platinum
 :END:
-- Implementing a complete solution so that all the quiz scores have been sorted from the lowest to the highest.
-- Screenshot your code and testing result and upload to www.bournetolearn.com
+- Research the term foreign key in relation to Databases.
+- In order to combine data together from multiple tables we have to join them up using the foreign keys as a guide.
+- Research *how to join a table using SQL* reading through guidance carefully.
+- Complete the *6 JOIN* Tutorial on the SQLZoo website.
+- Acheivement Point awarded for all 3 badges awarded.
