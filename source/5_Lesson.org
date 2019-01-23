@@ -92,6 +92,19 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: save
 :END:
+* Learning Objectives
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Objectives 
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: objectives
+:END: 
+In this lesson you will develop an understanding of the learning strand *Data and data representation* on your progress ladder, working towards blue/indigo level. You will also develop an understanding of the learning strand *Information Technology* towards Violet level by undertaking a creative project by building a graphical user interface.
+- The different user interfaces (Human Computer Interface HCI) and their advantages and disadvantages.
+- The core components needed for a Graphical User Interface (GUI)
+- How to create a *GUI* for a Database
+
 * Windows, Icons, Menus & Pointers
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
@@ -105,143 +118,63 @@
 - When IBM created SQL in 1974 they wanted the language to be robust because of what Databases contain, i.e. people's personal data.
 - So IBM's view was to seperate the two parts into the Front end, user interface and the Rear end that contains the Database Engine.
 - The front end is independent so as the User Interfaces changes with time (modernisation) it will not impact on the Database itself.
-- Consider the progress within computing that has happened since 1974 and how the latest interface (WWW) drives Databases today. 
-
-- Insert Video here
- 
-** badge It – User Interfaces
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: badge
-:END:
-- Research the different Computer - Human Interfaces (min 3) analysing how each interfaces works and why it was created.
-- You must detail the main advantages and disadvantages for each interface in terms of ease of use, complexity and data throughput.
-- - Achieve this by using a Text Editor of your choice & submit your evidence on the Bourne to Learn website. 
-- Each *Term* will need to be fully explained in your *own words* within a short paragraph, using an example. Remember to use full sentences and connectives (..because, therefore). 
-
-** Try It – Pattern Recognition
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: try
-:END:
-- Look at the following 3 number sequences, can you identify the pattern in how they change? Make a note of each!
-
-#+BEGIN_SRC 
-Pattern 1:
-     1, 2, 4, 8, 16, 32, 64, 128, 256
-
-Pattern 2:
-     0, 1, 1, 2, 3, 5, 8, 13, 21, 34
-
-Pattern 3:
-     2, 3, 5, 7, 11, 13, 17, 19, 23, 29
-
-
-#+END_SRC
-
-
-
-- How did you work out the patterns? 
-- Was one of them more difficult than the others? 
-- When looking for patterns, some of them we can decipher by using *decomposition* (looking at a small subset of numbers) to identify the rules used.
-- Others, however, we need to use *abstraction* to focus on the numbers themselves to identify a common theme.
-
-* Approaching a Problem
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: activity
-:END:
-** Learn It – An Excellent Life Skill
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: learn
-:END:
-
-- How we approach a problem makes a huge difference, we need to weigh up the best approach – often this means looking at a large amount of data and picking a particular method to begin.
-- Examples include Divide and Conquer or focusing on key details using Abstraction
-- Here are some general approaches to a problem: 
-  - Understand the problem (Algorithm)
-  - Break it down into smaller problems (Decomposition)
-  - Focus on important details (Abstraction)
-  - Look for similarities (Pattern Recognition)
-  - Evaluate your method
-
-* Problem Solving Examples
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: activity
-:END:
-** Try It – Problem 1
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: try
-:END:
-- Watch the following video, pause it before the solution and answer the questions below and make a note:
-
-  - How would you approach this task?
-  - What is the most important detail in this problem?
-  - What details can help you fill in other pieces of the puzzle?
+- Consider the progress within computing that has happened since 1974 and how the latest interface (the World Wide Web) drives Databases today. 
 
 #+BEGIN_html
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1rDVz_Fb6HQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qLl0vIchsIs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 #+END_html
-** Try It – Problem 2
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: try
-:END:
-- Assassin is a popular game on college campuses. The game consists of several players trying to eliminate the others by means of squirting them with water pistols in order to be the last survivor. Once hit, the player is out of the game.
-- Game play is fair play at all times and all locations, and tends to last several days depending on the number of participants and their stealth. 
-- At Bourne Grammar School, 5 teachers participated in a game that only lasted four days. Can you determine each teachers’ name, their team color, their assassin alias, how they were eliminated, and their extra-curricular activity?
-
-| Names:   | Mr Delport, Miss Potts, Mrs Ellis, Mr Fone, Mr Dougall                                                                      |
-| Colours: | Red, Green, Blue, Purple, Black                                                                                             |
-| Alias:   | Captain Dawn, Night Stalker, Dark Elf, McStealth, Billy                                                                     |
-| Capture: | Caught at weekly meeting, Caught helping friend with car trouble, Ambushed during sleep, Caught on the way to class, Winner |
-| Club:    | Long Distance Running, Weight Lifting, Flower Arrangement, Ice Skating, Model Trains                                        |
-
-- *MONDAY*: Mr Delport, the girl named Captain Dawn, and the person in purple avoided any action that day. The teacher in charge of Model Trains was able to easily catch Mr Dougall because she already had a meeting with him that day. Since it was a weekly engagement, he didn't suspect a thing. Goodbye red player.
-
-- *TUESDAY*: Everyone tried to get in on the action today. The girl masquerading as the Dark Elf (who was wearing either black or red) and the Ice Skater lived to see another day. The purple player was able to catch the obliging yet naive green player by calling her and pretending he had car trouble.
-
-- *WEDNESDAY*: The weight lifter (who was still "alive") was surprised to hear that the Model Train club owner, who wasn't Miss Potts the flower arranger, ambushed Night Stalker as he slept in his dorm.
-
-- *THURSDAY*: The black player was declared the victor after luckily spotting "Billy" on his way to “Do you even lift?”, a class required for his club.
-
-
-* Assessement
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: activity
-:END:
-
-** Badge It – Silver
+ 
+** Badge It - User Interfaces
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: silver
 :END:
-- Upload your solution to the Assassin Logic Puzzle from above – you should have included all details about each player involved and not just who the winner was.
-- Hint: A table may be a good way to figure out the solution and be a nice way to display this to your teacher
-** Badge It – Gold
+*Learning Strand: Data and Data Representation*
+- Research the different Computer - Human Interfaces (min 3) analysing how each interfaces works and why it was created.
+- You must detail the main advantages and disadvantages for each interface in terms of ease of use, complexity and the amount of computer processing needed.
+- - Achieve this by using a Text Editor of your choice & submit your evidence on the Bourne to Learn website. 
+- Each *Interface* will need to be fully explained in your *own words* within a short paragraph, using an example. Remember to use full sentences and connectives (..because, therefore). 
+
+
+* Building a GUI for a Database
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+#+BEGIN_html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dEaQIrw3CZY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+END_html
+
+** Try It 
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+- Open your *Game Stock Database*[[file:doc/Game Stock Database 2018.accdb][ Download this file]] from the last lesson.
+- Today you are going to design and create a graphical user interface for the Database:
+- Your Teacher will demonstrate how to create a basic GUI or you can watch the video above or view this [[file:doc/Creating a form using the wizard.pdf][guide]]? 
+  1. Create a basic GUI for your Game Stock Database.
+  2. Create a *Logo* in *GIMP* for your Company.
+  3. Add your *Logo* to your GUI and other appropriate images including a colour scheme.
+  4. Add *navigation buttons* to help the user navigate through the records.
+
+[[./img/Picture1.png]]
+
+
+** Badge It - Gold
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: gold
 :END:
-- Visit[[http://similarminds.com/intdoor.html][ this site]]
-- This will test your pattern recognition skills! There are 15 patterns to test. 
-- Score at least 8/15 and upload a screenshot as proof.
-
-** Badge It – Platinum
+*Learning Strand: Data and Data Representation*
+- Upload your screenshots of the Database GUI you have created, including an explanation of how the user would use the interface used to www.bournetolearn.com. 
+** Badge It - Platinum
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: platinum
 :END:
-- Push your problem solving skills to the limit! 
-- Try the following game.
-  - It is in Chinese! Your job is to do the following:
-  - Write down the rules
-  - Come up with a solution
-  - Upload this to BourneToLearn.com with a screenshot of victory!
-  - To start press the button in the game looking like this:
-  
+*Learning Strand: Data and Data Representation*
+- Research the range of features you can add to your GUI using Microsoft Access.
+- Detail and explain these features in a 200 word short essay, explaining how they might work to a potential customer.
 
-#+BEGIN_HTML
-<img src='./img/chineseStart.png' width=80 height=80>
- <object width="900" height="700" data="./img/puzzle.swf"></object> 
-#+END_HTML
-- Here are the rules for the game:
-  - At most two people can be on the raft at once.
-  - You will need at least one adult to operate the raft.
-  - The policeman can’t leave the criminal with other people.
-  - You can’t leave father alone with any of the girls as well as mother with any of the boys.
+If your interested in GUI's and how they came about, watch this video concerning the history of Graphical User Interfaces.
+
+#+BEGIN_html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XIGSJshYb90" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+END_html
+  

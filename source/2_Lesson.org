@@ -90,19 +90,24 @@
 :HTML_CONTAINER_CLASS: save
 :END
 
-* Querying the Database
+* Learning Objectives
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
 ** Objectives 
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: key
+:HTML_CONTAINER_CLASS: objectives
 :END: 
+In this lesson you will develop an understanding of the learning strand *Data and data representation* on your progress ladder, working towards blue/indigo level.
 - You will demonstrate understanding of searching databases.
 - You will build knowledge of multiple search methods.
 - You will contribute to query and searching discussions.
 - You will understand the structure and purpose of SQL statements.
 
+* Querying the Database
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
 ** Try It 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
@@ -111,7 +116,6 @@
 #+BEGIN_HTML
 <a href='http://www.teach-ict.com/gcse_new/databases/terminology/quiz/invaders_dbterminology.htm'><img src='./img/L2Starter.png'></a>
 #+END_HTML
-
 
 ** Learn It 
 :PROPERTIES:
@@ -183,16 +187,19 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: silver
 :END:
+*Learning Strand: Data and Data Representation*
 - Upload your screenshots of the five queries, including an explanation of the criteria used to www.bournetolearn.com.
 ** Badge It - Gold
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: gold
 :END:
+*Learning Strand: Data and Data Representation*
 - Upload your screenshots of the five queries, including a detailed explanation of the criteria used to perform each search to www.bournetolearn.com. 
 ** Badge It - Platinum
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: platinum
 :END:
+*Learning Strand: Data and Data Representation*
 - Create your own query that uses at least 4 different search criteria. Upload your evidence to www.bournetolearn.com.
 - Upload your SQL screenshot showing the SQL commands used in your search.
 
