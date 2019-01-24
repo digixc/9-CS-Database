@@ -90,6 +90,20 @@
 :HTML_CONTAINER_CLASS: save
 :END
 
+* Learning Objectives
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Objectives 
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: objectives
+:END: 
+In this lesson you will develop an understanding of the learning strand *Data and data representation* on your progress ladder, working towards blue/indigo level.
+- How to *Query* data on one table using a *typical query language*.
+- How data can be *structured* in multiple tables to make it useful
+- The term *Primary Key* as a unique identifier for each *record*.
+- How to select and use the correct *data type* for a field.
+
 * SQL - Structured Query Language
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
@@ -130,7 +144,7 @@ Let's look how we do this by taking a trip to the SQL Zoo.
 
 [[./img/SQLZoo.png]]
 
-- *Think*, *Pair*, *Share* We will work through the first question of the first tutorial, have a go yourself first.
+- *Think*, *Pair*, *Share:* we will work through the first question of the first tutorial as a group, let's start by having an attempt at the question yourself.
 - If you get stuck, share your thoughts with the person next to you first, and then be ready to share your findings with the class.
 - Click Here [[https://sqlzoo.net/]]
 
@@ -138,6 +152,7 @@ Let's look how we do this by taking a trip to the SQL Zoo.
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: silver
 :END:
+*Learning Strand: Data and Data Representation*
 - Finish the questions for the first Tutorial *0 SELECT - Basics* and the move on.
 - Complete the next Tutorial *1 SELECT - name* 
 - Ensure you have completed *both* Tutorials, capturing evidence that you have completed the tasks using the snip-it tool. 
@@ -147,16 +162,18 @@ Let's look how we do this by taking a trip to the SQL Zoo.
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: gold
 :END:
+*Learning Strand: Data and Data Representation*
 - Research why data is split over a range of tables using a technique known as *Normalisation*
 - What are the benifits of *Normalisation* and why was it important in the 1970's and 1980's?
 - What was the Millennium bug?
-- How did storing a date as 3 bytes instead of 4 bytes cause the Millennium bug?
+- How did storing a *date* as 3 bytes instead of 4 bytes cause the Millennium bug?
 - Write your answers to the questions above in your favourtie text editor and submit your work to the BourneToLearn Website.
 
 ** Badge It - Platinum
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: platinum
 :END:
+*Learning Strand: Data and Data Representation*
 - Research the term foreign key in relation to Databases.
 - In order to combine data together from multiple tables we have to join them up using the foreign keys as a guide.
 - Research *how to join a table using SQL* reading through guidance carefully.
