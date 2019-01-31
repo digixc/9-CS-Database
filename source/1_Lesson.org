@@ -109,12 +109,12 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-In this lesson you will develop an understanding of the learning strand *Data and data representation* on your progress ladder, working towards blue/indigo level.
-*** Objectives 
+
+** Objectives 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: objectives
 :END: 
-
+In this lesson you will develop an understanding of the learning strand *Data and data representation* on your progress ladder, working towards blue/indigo level.chh
 - *Investigate* what a Database is and their basic features.
 - *Recognise* the importance of Databases & *Highlight* the reasons as to why they are a valuable tool
 - *Explain* in detail key database terminology
