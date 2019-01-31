@@ -2,8 +2,8 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="pages/css/styles.css"/>
 #+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
 #+OPTIONS: f:nil author:AUTHOUR num:nil creator:AUTHOUR timestamp:nil toc:nil html-postamble:nil  
-#+TITLE: Database
-#+AUTHOR: X Ellis
+#+TITLE: Databases
+#+AUTHOR: AStout & S.Fone
 #+BEGIN_HTML
   <div class="github-fork-ribbon-wrapper left">
     <div class="github-fork-ribbon">
@@ -34,12 +34,11 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
-* [[file:pages/6_Lesson.html][Week 6 - All Together Now]]
+* [[file:pages/homework.html][Homework Tasks]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
-:END:
-
-* [[file:pages/homework.html][Homework]]
+:END:      
+* [[file:pages/evaluation.html][Evaluation]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
