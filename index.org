@@ -38,7 +38,7 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:      
-* [[file:pages/evaluation.html][Evaluation]]
+* [[file:pages/evaluation.html][End of Unit Evaluation]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:

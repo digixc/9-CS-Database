@@ -26,6 +26,21 @@
 
     </ul>
   </div>
+
+<div id="underlay" onclick="underlayoff()">
+</div>
+<div id="overlay" onclick="overlayoff()">
+</div>
+<div id=overlayMenu>
+<p onclick="overlayon('hsla(0, 0%, 50%, 0.5)')">Grey overlay</p>
+<p onclick="underlayon('hsla(300,100%,50%, 0.3)')">Pink</p>
+<p onclick="underlayon('hsla(80, 90%, 40%, 0.4)')">Green</p>
+<p onclick="underlayon('hsla(240,100%,50%,0.2)')">Blue</p>
+<p onclick="underlayon('hsla(40,100%,50%,0.3)')">Cream</p>
+<p onclick="underlayon('hsla(300,100%,40%,0.3)')">Liliac</p>
+<p onclick="underlayon('hsla(300,100%,25%,0.3)')">Purple</p>
+<p onclick="underlayon('hsla(60,100%,50%,0.3)')">Yellow</p>
+</div>
 #+END_HTML
 * COMMENT Use as a template
 :PROPERTIES:
@@ -94,11 +109,12 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-** Objectives 
+In this lesson you will develop an understanding of the learning strand *Data and data representation* on your progress ladder, working towards blue/indigo level.
+*** Objectives 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: objectives
 :END: 
-In this lesson you will develop an understanding of the learning strand *Data and data representation* on your progress ladder, working towards blue/indigo level.
+
 - *Investigate* what a Database is and their basic features.
 - *Recognise* the importance of Databases & *Highlight* the reasons as to why they are a valuable tool
 - *Explain* in detail key database terminology
