@@ -6,8 +6,7 @@
 #+OPTIONS: f:nil num:1 creator:nil timestamp:nil toc:nil html-style:nil
 
 #+TITLE: Homework tasks
-#+AUTHOR: Xiaohui Ellis
-
+#+AUTHOR: A.Stout & S.Fone
 #+BEGIN_HTML
   <div class="github-fork-ribbon-wrapper left">
     <div class="github-fork-ribbon">
@@ -21,7 +20,6 @@
       <li><a href="3_Lesson.html">Week3</a></li>
       <li><a href="4_Lesson.html">Week4</a></li>
       <li><a href="5_Lesson.html">Week5</a></li>
-      <li><a href="6_Lesson.html">Week6</a></li>
       <li><a href="homework.html">Homework</a></li>
 
     </ul>
@@ -95,39 +93,39 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-** Homework 1 - Logical Thinking
+** Homework 1 - Terminology Quiz.
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+Click on following [[https://www.proprofs.com/quiz-school/story.php?title=ict-database-questions][Link]] to take a quiz on Database Terminology, you should aim to get at least 50%.
+Then take a snippet of the score and uploaded it onto BourneToLearn.
+
+** Homework 2 - Research Task.
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
 
-- You may have played quite a few logic puzzle games.
-- One of the classic games of this kind is Tetris. 
-- Cut Block Puzzle is similar in that it requires you to think logically when place a number in a grid.
-- First step in =Problem Solving= is to understand the problem, which means, you need to know the rules(=process=), the =input= you can have and the expected outcomes(=output=).
-- There are two rules that must hold of a completed cut block puzzle.
-  1. Each area marked out by darker lines must contain the numbers from 1 up to the number of squares in the area. For example, the top most area in the first puzzle below consists of 5 squares so those squares must be filled with the numbers: 1, 2, 3, 4 and 5 with no repeated numbers. If the area has two squares, like the one bottom left below, then it must be filled with the numbers 1 and 2.
-  2. No number can be next to the same number in any direction, whether horizontally, vertically or diagonally. So in the grid below, the fact that there is a 4 on the side means there cannot be a 4 in any of the 5 squares surrounding it.
-- Here is an example with its solution and then a larger cut block puzzle to try.
-[[./img/cutBlockExample.png]]
+Using the following [[https://www.bbc.com/bitesize/guides/z8yg87h/revision/1][link]] research Databases and answer the following questions.
 
-Your task:
-- Solve the following Cut Block Puzzle.
-- Using a sheet of paper or a word document for your work
-- Describe briefly on how you approach the problem 
-- Once finished, upload  to www.bournetolearn.com or hand in to your teacher your solution along with your note.
+- What is a flat file database?
+- What is a relational database?
+- What is a primary key and how is it used?
+- What is a foreign key and how does it relate to the primary key?
 
-[[./img/cutBlockPuzzle.png]]
-** Homework 2 - Coming soon
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: learn
-:END:
-
+Your answers should be full sentences using connectives. Try and write a short paragraph for each by discussing the main points, advantages and disadvantages etc.
+You need to write a minimum of 200 words in total covering all 4 questions.
 	 
-** Homework 3 - Coming Soon
+** Homework 3 - Referential Integrity Research
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
 
+In your last lesson, you have learned about how we can link two tables together and should know that every foreign key value has a matching value in the corresponding primary key.
+
+Your Task: (200 words minimum)
+1.	Research and explain what referential integrity is?
+2.	Why do we need to use referential integrity?
+3.	Find several examples of databases using referential integrity (Diagrams can be used to support).
 
 
 
