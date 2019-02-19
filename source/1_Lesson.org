@@ -6,7 +6,7 @@
 #+HTML_HEAD_EXTRA: <script src="js/strikeThrough.js" type="text/javascript"></script>
 #+OPTIONS: f:nil author:AUTHOR num:1 creator:AUTHOR timestamp:nil toc:nil html-style:nil html-postamble:nil
 #+TITLE: Database
-#+AUTHOR: Adrian Stout
+#+AUTHOR: Adrian Stout, X Ellis
 
 #+BEGIN_HTML
   <div class="github-fork-ribbon-wrapper left">
@@ -21,8 +21,8 @@
       <li><a href="3_Lesson.html">Week3</a></li>
       <li><a href="4_Lesson.html">Week4</a></li>
       <li><a href="5_Lesson.html">Week5</a></li>
-      <li><a href="6_Lesson.html">Week6</a></>
-      <li><a href="assessment.html">Assessment</a></li>
+      <li><a href="homework.html">Homework</a></>
+      <li><a href="evaluation.html">Evaluation</a></li>
 
     </ul>
   </div>
@@ -107,16 +107,16 @@
 :END:
 * Learning Objectives
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: activity
+:HTML_CONTAINER_CLASS: objectives
 :END:
 
 ** Objectives 
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: objectives
+:HTML_CONTAINER_CLASS: learning
 :END: 
-In this lesson you will develop an understanding of the learning strand *Data and data representation* on your progress ladder, working towards blue/indigo level.chh
-- *Investigate* what a Database is and their basic features.
-- *Recognise* the importance of Databases & *Highlight* the reasons as to why they are a valuable tool
+In this lesson you will develop an understanding of the learning strand *Data and data representation* on your progress ladder, working towards blue/indigo level.
+- *Investigate* what a database is and their basic features.
+- *Recognise and Explain* the importance of Databases
 - *Explain* in detail key database terminology
 * Database Basics, Terms & Definitions
 :PROPERTIES:
@@ -127,12 +127,23 @@ In this lesson you will develop an understanding of the learning strand *Data an
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: key
 :END:      
-+ A *Database* is an *organised* store of *data*. 
-+ A *Table* is used to contain the Data specific to an Entity (objects,people,events). 
-+ A *Record* is a single *Row* of the Database. 
-+ A *Field* is a single *Column* of a Database.  
++ A *database* is an *organised* store of *data*. 
++ Databases organise data in *tables*
++ A *table* contains the Data specific to one type of Entity, such as a table for people, a table for products, or a table for orders
++ A *record* is a single *row* in a table
++ A *record* contains many *fields* about an entity, for example a record of person may have the following fields: *lastname, firstname, dateOfBirth, phoneNumber, gender*
++ A *field* is a single *piece of data* about an entity, such as lastname.
++ *field* is also called *column*
 
-[[./img/database.png]]
+[[./img/databaserecord.gif]]
+
+An example of a table contains two records of people:
+
+| LastName | FirstName | Gender | Role    | email           |
+|----------+-----------+--------+---------+-----------------|
+| Ellis    | Xiaohui   | F      | Teacher | x@ellis.com     |
+| Smith    | John      | M      | Student | john@planet.org |
+
 
 ** Learn It
 :PROPERTIES:

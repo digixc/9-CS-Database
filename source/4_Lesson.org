@@ -20,7 +20,7 @@
       <li><a href="3_Lesson.html">Week3</a></li>
       <li><a href="4_Lesson.html">Week4</a></li>
       <li><a href="5_Lesson.html">Week5</a></li>
-      <li><a href="6_Lesson.html">Week6</a></>
+      <li><a href="homework.html">Homework</a></>
       <li><a href="assessment.html">Assessment</a></li>
 
     </ul>
@@ -92,11 +92,11 @@
 
 * Learning Objectives
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: activity
+:HTML_CONTAINER_CLASS: objectives
 :END:
 ** Objectives 
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: objectives
+:HTML_CONTAINER_CLASS: learning
 :END: 
 In this lesson you will develop an understanding of the learning strand *Data and data representation* on your progress ladder, working towards blue/indigo level.
 - You will be able to demonstrate how to create multiple tables in a databases.

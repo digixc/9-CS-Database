@@ -20,8 +20,8 @@
       <li><a href="3_Lesson.html">Week3</a></li>
       <li><a href="4_Lesson.html">Week4</a></li>
       <li><a href="5_Lesson.html">Week5</a></li>
-      <li><a href="6_Lesson.html">Week6</a></>
-      <li><a href="assessment.html">Assessment</a></li>
+      <li><a href="homework.html">Homework</a></>
+      <li><a href="evaluation.html">Evaluation</a></li>
 
     </ul>
   </div>
@@ -92,12 +92,12 @@
 
 * Learning Objectives
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: activity
-:END:
+:HTML_CONTAINER_CLASS: objectives
+:END:      
 ** Objectives 
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: objectives
-:END: 
+:HTML_CONTAINER_CLASS: learning
+:END:      
 In this lesson you will develop an understanding of the learning strand *Data and data representation* on your progress ladder, working towards blue/indigo level.
 - How to *Query* data on one table using a *typical query language*.
 - How data can be *structured* in multiple tables to make it useful
