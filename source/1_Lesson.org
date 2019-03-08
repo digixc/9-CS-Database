@@ -150,12 +150,12 @@ An example of a table contains two records of people:
 :HTML_CONTAINER_CLASS: learn
 :END:
 - We have been recording data since before the time of the Romans. In fact some of the earliest Databases come this period in history.
-- The Romans would record such data as wheat harvests and military camp itinaries so they knew how much equipment the soldiers had at a fort.
-- We obtain the word *Record* from the Latin word *Recordari*, The *noun* was earliest used in law to denote the fact of *being written down as evidence*.
+- The Romans would record such data as wheat harvests and military camp itineraries so they knew how much equipment the soldiers had at a fort.
+- We obtain the word *Record* from the Latin word *Recordari*, the *noun* was earliest used in law to denote the fact of *being written down as evidence*.
 - A *Record* is therefore a *collection of facts relating to an object, person or event*.
 - For hundreds of years these records were recorded on paper, hence the term *Paper Database*.
-- Before Computer Science, records were written on peices of paper, which we called files, and stored in filing cabinets.
-- Paper Filing Cabinets could store less than *6,000 files*, or *6000 records* because each record needed to be seperated from the others for privacy reasons. 
+- Before Computer Science, records were written on pieces of paper, which we called files, and stored in filing cabinets.
+- Paper Filing Cabinets could store less than *6,000 files*, or *6000 records* because each record needed to be separated from the others for privacy reasons. 
 - A Computer Database of the same size would only be a few *Megabytes* and fit on to a USB stick, and be less harmful on the trees than all that paper.
 
 #+Begin_SRC 
@@ -186,7 +186,7 @@ Now Think, Pair, Share!
 :HTML_CONTAINER_CLASS: silver
 :END:
 *Learning Strand: Data and Data Representation*
-- Using the Key Terms listed above identify and explain in detail the key definitions for Databases (Database,Table, Record, Field). You can acheive this by using an example such as the one we have covered for Challenge 1, explaining what tables & fields would be needed and what data would be stored in the records.
+- Using the Key Terms listed above identify and explain in detail the key definitions for Databases (Database,Table, Record, Field). You can achieve this by using an example such as the one we have covered for Challenge 1, explaining what tables & fields would be needed and what data would be stored in the records.
 - Achieve this by using a Text Editor of your choice & submit your evidence on the Bourne to Learn website. 
 - Each *Term* will need to be fully explained in your *own words* within a short paragraph, using an example. Remember to use full sentences and connectives (..because, therefore). 
 * How are Databases Used?
@@ -199,12 +199,12 @@ Now Think, Pair, Share!
 [[./img/Student-record.png]]
 
 - However why and how are Databases used?
-- The first question can be answered by thinking about Paper based Databases. Computer Code can be written to search through data to *Match* a peice of Data. We call this querying the Database, Query being another word used instead of the word question
+- The first question can be answered by thinking about Paper based Databases. Computer Code can be written to search through data to *Match* a piece of Data. We call this querying the Database, Query being another word used instead of the word question
 - A Query is created within Database programs such as Microsoft Access by pressing a key buttons and typing in the *Criteria*, what we call the Search Term.
 - For web-based applications and almost everything else Queries are created using *SQL* which stands for Structured Query Language. Don't worry about this now we will be covering both in later lessons.
-- This is not the only use of Databases however, new Information can be obtained from a Database. First, let's refresh what is Data and What is Information.
+- This is not the only use of Databases however new Information can be obtained from a Database. First, let's refresh "what is Data?" and "what is Information?"
 - The words "data" and "information" are often used as if they are synonyms. Nevertheless, they have different meanings.
-- *Data*: Raw material, from which you can draw conclusions. Facts from which you can deduce new facts. 
+- *Data*: Raw material, from which you can draw conclusions, facts from which you can deduce new facts. 
 - *Information*: knowledge, intelligence, a particular piece of data with a special meaning or function. Information is often the result of combining, comparing and performing calculations on data. 
 - Let's look at the example below.
 
@@ -215,7 +215,7 @@ Now Think, Pair, Share!
 :HTML_CONTAINER_CLASS: gold
 :END:
 *Learning Strand: Data and Data Representation*
-- *What Databases do you use in your daily life? Perhaps on your phone?, perhaps on your personal computer or laptop?*
+- *What Databases do you use in your daily life? Perhaps on your phone, perhaps on your personal computer or laptop?*
 - *Research* 2 applications in real life where Databases are used and how. 
 - Achieve this by using a Text Editor of your choice & submit your evidence on the Bourne to Learn website. 
 - Each *application* will need to be fully explained in your *own words* within a paragraph. 
