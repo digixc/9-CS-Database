@@ -167,8 +167,8 @@ In this lesson you will develop an understanding of the learning strand *Data an
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END: 
-- Today your taks is to create a new query that uses at least 4 different criteria to search and display the results.
-- *For example: xbox games, Sports Genre, age 15+ and Price less than £40.00.*
+- Today your task is to create a new query that uses at least 4 different criteria to search and display the results.
+- *For example: X-Box games, Sports Genre, age 15+ and Price less than £40.00.*
   1. Explain how you used criteria to search the database for required information.
   2. Explain how you used the sort function to sort the data in your search.
   3. Take screenshots to prove you have completed each search.

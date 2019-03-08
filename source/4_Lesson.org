@@ -99,7 +99,7 @@
 :HTML_CONTAINER_CLASS: learning
 :END: 
 In this lesson you will develop an understanding of the learning strand *Data and data representation* on your progress ladder, working towards blue/indigo level.
-- You will be able to demonstrate how to create multiple tables in a databases.
+- You will be able to demonstrate how to create multiple tables within a database.
 - You will be able to build knowledge of primary/foreign keys, relational types and referential integrity.
 - You will be able to demonstrate relationships between tables using appropriate relationship methods.
 - You will understand how to read and manipulate a relational map.
@@ -241,7 +241,7 @@ The relationship type you will come across most frequently—and the one created
 :HTML_CONTAINER_CLASS: gold
 :END:
 *Learning Strand: Data and Data Representation*
-- Upload your screenshot evidence of your three tables joined together using appropriate relationaship types, to www.bournetolearn.com. 
+- Upload your screenshot evidence of your three tables joined together using appropriate relationship types, to www.bournetolearn.com. 
 ** Badge It - Platinum
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: platinum

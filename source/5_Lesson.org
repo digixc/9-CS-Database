@@ -116,7 +116,7 @@ In this lesson you will develop an understanding of the learning strand *Data an
 - The earliest computers relied on their operators typing in commands using a typewriter keyboard interface.
 - There are advantages to such an interface, but there are many disadvantages. Try and think of a few?
 - When IBM created SQL in 1974 they wanted the language to be robust because of what Databases contain, i.e. people's personal data.
-- So IBM's view was to seperate the two parts into the Front end, user interface and the Rear end that contains the Database Engine.
+- So IBM's view was to separate the two parts into the Front end, user interface and the Rear end that contains the Database Engine.
 - The front end is independent so as the User Interfaces changes with time (modernisation) it will not impact on the Database itself.
 - Consider the progress within computing that has happened since 1974 and how the latest interface (the World Wide Web) drives Databases today. 
 

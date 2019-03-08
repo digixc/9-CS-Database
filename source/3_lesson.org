@@ -112,11 +112,11 @@ In this lesson you will develop an understanding of the learning strand *Data an
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END: 
-- SQL is an abbreviation for structured query language, and pronounced either see-kwell or as separate letters.
-- The original version called SEQUEL (structured English query language) was designed by an IBM research center in 1974 and 1975. 
+- SQL is an abbreviation for structured query language, and pronounced either "see-kwell" or as separate letters.
+- The original version called SEQUEL (structured English query language) was designed by an IBM research centre in 1974 and 1975. 
 - SQL is a standardized query language for requesting information from a database. 
-- Query is another word for question, in essence we are asking the Database a question.
-- Let's look at it's structure
+- Query is another word for question in essence we are asking the Database a question.
+- Let's look at its structure
 #+BEGIN_SRC 
 
 SELECT field(s) FROM table(s)
@@ -140,11 +140,11 @@ Let's look how we do this by taking a trip to the SQL Zoo.
 
 #+END_SRC
 - Click on the following link to take a trip to SQL Zoo.
-- The Website looks looks like this.
+- The Website looks like this.
 
 [[./img/SQLZoo.png]]
 
-- *Think*, *Pair*, *Share:* we will work through the first question of the first tutorial as a group, let's start by having an attempt at the question yourself.
+- *Think*, *Pair*, *Share:* we will work through the first question of the first tutorial as a group. Let's start by having an attempt at the question yourself.
 - If you get stuck, share your thoughts with the person next to you first, and then be ready to share your findings with the class.
 - Click Here [[https://sqlzoo.net/]]
 
@@ -164,10 +164,10 @@ Let's look how we do this by taking a trip to the SQL Zoo.
 :END:
 *Learning Strand: Data and Data Representation*
 - Research why data is split over a range of tables using a technique known as *Normalisation*
-- What are the benifits of *Normalisation* and why was it important in the 1970's and 1980's?
+- What are the benefits of *Normalisation* and why was it important in the 1970's and 1980's?
 - What was the Millennium bug?
 - How did storing a *date* as 3 bytes instead of 4 bytes cause the Millennium bug?
-- Write your answers to the questions above in your favourtie text editor and submit your work to the BourneToLearn Website.
+- Write your answers to the questions above in your favourite text editor and submit your work to the BourneToLearn Website.
 
 ** Badge It - Platinum
 :PROPERTIES:
@@ -178,4 +178,4 @@ Let's look how we do this by taking a trip to the SQL Zoo.
 - In order to combine data together from multiple tables we have to join them up using the foreign keys as a guide.
 - Research *how to join a table using SQL* reading through guidance carefully.
 - Complete the *6 JOIN* Tutorial on the SQLZoo website.
-- Acheivement Point awarded for all 3 badges awarded.
+- Achievement Point awarded for all 3 badges awarded.
