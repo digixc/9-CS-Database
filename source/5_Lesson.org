@@ -149,7 +149,7 @@ In this lesson you will develop an understanding of the learning strand *Data an
 :END:
 - Open your *Game Stock Database*[[file:doc/Game Stock Database 2018.accdb][ Download this file]] from the last lesson.
 - Today you are going to design and create a graphical user interface for the Database:
-- Your Teacher will demonstrate how to create a basic GUI or you can watch the video above or view this [[file:doc/Creating a form using the wizard.pdf][guide]]? 
+- Your Teacher will demonstrate how to create a basic GUI or you can watch the video above or view this [[file:doc/queryWizardGuide.pdf][guide]] 
   1. Create a basic GUI for your Game Stock Database.
   2. Create a *Logo* in *GIMP* for your Company.
   3. Add your *Logo* to your GUI and other appropriate images including a colour scheme.
