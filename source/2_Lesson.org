@@ -7,7 +7,7 @@
 #+TITLE:Databases
 #+AUTHOR: S.Fone and A.Stout
 
-#+BEGIN_HTML
+#+BEGIN_EXPORT html
   <div class="github-fork-ribbon-wrapper left">
     <div class="github-fork-ribbon">
       <a href="https://github.com/digixc/8-CS-ProblemSolving">Fork me on GitHub</a>
@@ -25,7 +25,7 @@
 
     </ul>
   </div>
-#+END_HTML
+#+END_EXPORT
 * COMMENT Use as a template
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
@@ -113,9 +113,9 @@ In this lesson you will develop an understanding of the learning strand *Data an
 :HTML_CONTAINER_CLASS: try
 :END: 
 - *Starter* - Click on the image below to test your knowledge of database terminology:
-#+BEGIN_HTML
+#+BEGIN_EXPORT html
 <a href='http://www.teach-ict.com/gcse_new/databases/terminology/quiz/invaders_dbterminology.htm'><img src='./img/L2Starter.png'></a>
-#+END_HTML
+#+END_EXPORT
 
 ** Learn It 
 :PROPERTIES:
@@ -126,24 +126,27 @@ In this lesson you will develop an understanding of the learning strand *Data an
 - A select query is a data retrieval query, while an action query asks for additional operations on the data, such as insertion, updating or deletion.
 [[./img/QueryDB.jpg]]
 
-#+BEGIN_html
+#+BEGIN_EXPORT html
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/V5Aay2xBDps" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-#+END_html
+#+END_EXPORT
 
-** Try It 
+** Badge It - Silver
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: try
+:HTML_CONTAINER_CLASS: silver
 :END:
+*Learning Strand: Data and Data Representation*
 - Open your *Game Stock Database*[[file:doc/Game Stock Database 2018.accdb][ Download this file]] from the last lesson.
+- Watch the video above or view this [[file:doc/Creating a query using the wizard.pdf][guide]].
 - Today you are going to complete the following queries (Searches):
-- Your Teacher will demonstrate how to create a query or you can watch the video above or view this [[file:doc/Creating a query using the wizard.pdf][guide]]? 
+
   1. Create a query that finds *all games* that are *3+*.
   2. *All PlayStation games* in *alphabetical* order of *name*.
   3. An *RPG* game that is suitable for *11+*.
   4. *All Sport* games suitable for *15*.
   5. Your own query *(Any titles/platforms/age/price etc.)*
+- Upload your screenshots of the five queries, including an explanation of the criteria used to www.bournetolearn.com.
 [[./img/Picture1.png]]
 
 
@@ -152,21 +155,22 @@ In this lesson you will develop an understanding of the learning strand *Data an
 :HTML_CONTAINER_CLASS: activity
 :END: 
 
-** Learn It
+** COMMENT Learn It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END: 
 
-- In the previous lesson you should have used query guides to help you complete the five basic queries.
+- In the this lesson you should have used query guides to help you complete the five basic queries.
 - Databases store data in a structured format, which can be accessed using queries.
-- In fact, the structured query language (SQL) was designed specifically for this purpose.
+- In fact, the =structured query language (SQL)= was designed specifically for this purpose.
 - Users can create SQL queries that retrieve specific information from a database.
 [[./img/SQL.jpg]]
 
-** Try It
+** Badge It - Gold
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: try
+:HTML_CONTAINER_CLASS: gold
 :END: 
+*Learning Strand: Data and Data Representation*
 - Today your task is to create a new query that uses at least 4 different criteria to search and display the results.
 - *For example: X-Box games, Sports Genre, age 15+ and Price less than £40.00.*
   1. Explain how you used criteria to search the database for required information.
@@ -180,22 +184,12 @@ In this lesson you will develop an understanding of the learning strand *Data an
 :HTML_CONTAINER_CLASS: try
 :END: 
 - *Plenary* - Using your knowledge of databases so far, have a go at the *Query Quiz*
-   #+BEGIN_HTML
+
+   #+BEGIN_export html
     <object width="600" height="800" data="doc/Query Quiz.swf"></object>
-   #+END_HTML
-** Badge It - Silver
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: silver
-:END:
-*Learning Strand: Data and Data Representation*
-- Upload your screenshots of the five queries, including an explanation of the criteria used to www.bournetolearn.com.
-** Badge It - Gold
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: gold
-:END:
-*Learning Strand: Data and Data Representation*
-- Upload your screenshots of the five queries, including a detailed explanation of the criteria used to perform each search to www.bournetolearn.com. 
-** Badge It - Platinum
+   #+END_export
+
+** COMMENT Badge It - Platinum
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: platinum
 :END:
